@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0070f3;
+  --secondary: #666;
+  --background: #fff;
+  --foreground: #000;
+  --input: #e2e8f0;
+  --ring: #0070f3;
+  --border: #e2e8f0;
+}
