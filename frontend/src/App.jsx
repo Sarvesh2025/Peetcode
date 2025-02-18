@@ -8,6 +8,8 @@ import Problem from './pages/Problem'
 import Problems from './pages/Problems'
 import Profile from './pages/Profile'
 import CodeSubmission from './pages/SubmissionPage'
+import SubmissionsPage from './pages/Submissions'
+import ProgressTracking from './pages/ProgressTracker'
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="/" element={<CodeSubmission/>} />
+            <Route path="/" element={<ProgressTracking/>} />
             <Route path="/about" element={<About />} />
             <Route path="/problems" element={<Problems />} />
             <Route path="/problem" element={<Problem />} />
